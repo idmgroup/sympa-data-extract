@@ -15,13 +15,13 @@ Description of the components
 -------------
 
 - sympa-data-extract: connects to the sympa web interface using admin credentials. Uses Selenium HQ to automate a Firefox browser, outputs:
-- + a list.tsv file describing all lists hosted on the server (can be used in custom scripts later)
-- + a lists folder with TSV files containing the subscribers foe each list (not even used in the final version in favor of the scripts)
-- + an archives folder containing one archive zip file per list
-- + a creation_scripts folder with list creation scripts (code shall be customized here to your needs)
-- + an update_scripts folder with scripts to add subscribers to the lists
+  + a list.tsv file describing all lists hosted on the server (can be used in custom scripts later)
+  + a lists folder with TSV files containing the subscribers foe each list (not even used in the final version in favor of the scripts)
+  + an archives folder containing one archive zip file per list
+  + a creation_scripts folder with list creation scripts (code shall be customized here to your needs)
+  + an update_scripts folder with scripts to add subscribers to the lists
 - sympa2mbox.sh
-- + converts a folder full of sympa zip archives to a folder full of mbox files
+  + converts a folder full of sympa zip archives to a folder full of mbox files
 
 Basic migration Steps
 -------------
