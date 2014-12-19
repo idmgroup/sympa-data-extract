@@ -132,7 +132,7 @@ public class Main {
         List<ListDescription> lists = new ArrayList<ListDescription>();
         
         driver.navigate().to(BASE_URL + "/get_inactive_lists");
-        List<WebElement> listsElements = driver.findElements(By.xpath("//table[@summary='Les listes inactives']/tbody/tr"));
+        List<WebElement> listsElements = driver.findElements(By.xpath("//table[@summary='Inactive Lists']/tbody/tr"));
         for(WebElement listInfo : listsElements) {
             List<WebElement> listElements = listInfo.findElements(By.xpath("./td"));
             if(4 == listElements.size()) {
