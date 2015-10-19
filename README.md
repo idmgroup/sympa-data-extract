@@ -1,6 +1,10 @@
 sympa2googlegroups
 ==================
 
+[![Build Status](https://travis-ci.org/idmgroup/sympa-data-extract.svg?branch=master)](https://travis-ci.org/idmgroup/sympa-data-extract)
+
+
+
 A pile of hackish code used to migrate lists and archives from Sympa to Google Groups for business. Used to migrate a few dozen ML from Sympa 5.3.4 to Groups in March 2014. Not designed to be generic in any way, should be enough to serve as a starting point for a similar problem, i.e. this project contains what I would have liked to find before starting.
 
 To use it, you shall first 
