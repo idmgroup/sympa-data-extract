@@ -12,7 +12,7 @@ To use it, you shall first
 - have a working Maven environment
 - have Firefox installed and in your PATH (or in the /Applications folder on OS X)
 - have [Ditto GAM](|https://code.google.com/p/google-apps-manager/) v3.0.4 installed and in your PATH (at the time of this writing, 3.0.5 and 3.0.6 are out but groups settings command do not work)
-- install [test_groups_migration.p](https://github.com/google/enterprise-deployments/blob/master/apps/python/groups/test_groups_migration.py) (easy_install from python-setuptools required).
+- install [test_groups_migration.py](https://github.com/google/enterprise-deployments/blob/master/apps/python/groups/test_groups_migration.py) (easy_install from python-setuptools required).
 
 N.B.: the first version used [sympa2mbox](http://6.ptmc.org/323/) and [mbox_send.py](https://gist.github.com/wojdyr/1176398) instead of the Groups Migration API but I found the use of SMTP migration to be unreliable: some mails were missing from the archive without any error feedback. On the other hand there are some charset issues with the new import method, so it might still be considered as an alternative.
 
